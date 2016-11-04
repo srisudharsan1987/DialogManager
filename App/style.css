@@ -1,0 +1,133 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+
+.form_input{
+	padding: 4px;
+	margin: 5px;
+	height: 15px;
+}
+.form1{
+		background: red;
+}
+.mydiv{
+	/*border: 1px solid #f2f2f2;*/
+	padding: 20px;
+}
+.msg-box{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding:10px;
+	margin: 13px;
+	background-color: #fff;
+}
+.bgGray{
+	background-color: #f5f5f5;
+}
+.float-right{
+	float:right;
+	margin-right: 10px;
+}
+.float-left{
+	float:left;
+	margin-right: 10px;
+}
+.conv-block{
+	border-top: 2px solid #8cd2ed;
+	position: relative;
+	padding-bottom: 20px;
+}
+.msg-blck{	
+	height: 400px;
+    overflow: auto;
+        width: 85%;
+}
+.rply-block{
+	background-color:#e5e5e5;
+	padding:20px;
+}
+.m-0{
+	margin: 0px;
+}
+.msg-box-output{
+	text-align: right;
+}
+.user-img{
+	width: 25px;
+    height: 25px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+.msg-area{
+	resize: none;
+}
+.btn-submit{
+	border-radius: 15px;
+	background-color: #24b0e6;
+}
+.btn-submit:hover{
+	background-color: #24b0e6;
+}
+.showDialog-false, .showReview-false, .hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
+img[class*='conv-logo']{
+	position: absolute;
+    top: -20px;
+    right: -11px;
+    border-radius: 50%;
+}
+h3{
+	color: #555555;
+}
+.conv-logo-close{
+	cursor: pointer;
+}
+.okBtn, .okBtn:hover, .okBtn:active,.okBtn:focus{
+	background-color: #107aca !important;
+    border-color: #107aca !important;
+    padding: 6px 25px !important;
+    border-radius: 4px !important;
+}
+.btn-info,.btn-info:hover, .btn-info:active,.btn-info:focus{
+	background-color: #24b0e6;
+    border-color: #24b0e6;
+    border-top-left-radius: 12em;
+    border-top-right-radius: 12em;
+    border-bottom-right-radius: 12em;
+    border-bottom-left-radius: 12em;
+}
+
+.pFont {
+	 font-size: 17px;
+    font-family: Interval Sans Pro Cond UltraLight;
+}
+
+.imgRight {
+	 margin-right: 10px;
+}
+.img-with-content{
+	display: table;
+	border-bottom: 1px solid #c8c8c8;
+	padding: 0 0 15px 0;
+}
+.jit-img{
+	    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+}
+hr{
+	border-color: #c8c8c8;
+}
+
+.btn-block {
+	margin-top: 20px;
+}
+
+.jit-h4 {
+	text-align: right;
+    padding: 5px;
+    color: #24b0e6;
+}
